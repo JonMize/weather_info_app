@@ -83,7 +83,7 @@ class SecondRoute extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Second Route'),
       ),
-      body: Column(
+      body: const Column(
         children: <Widget>[
           Text('City'),
           Text('Temperature'),
